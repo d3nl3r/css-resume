@@ -36,7 +36,7 @@ h2 {
 }
 
 a{
-  color: #EF2333C;
+  color: #EF233C;
 }
 
 a:hover {
@@ -44,25 +44,24 @@ a:hover {
 }
 
 .content-wrap {
-  max-width: 960px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .col-narrow {
-  width: 30%;
+  width: 35%;
   float: left;
   min-height: 175px;
-  border: 1px solid black;
+  padding-right: 3%;
+  /* border: 1px solid black; */
 }
 
 .col-wide {
-  width: 70%;
+  width: 62%;
   float: left;
-  padding-left: 20px;
   min-height: 175px;
-  border: 1px solid black;
 }
 
 
@@ -76,10 +75,10 @@ header, footer {
 /* header  */
 
 .profile-img {
-  width: 300px;
+/*  width: 300px; */
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
+/*  float: left; */
+/*  margin-right: 30px; */
 }
 
 
@@ -94,7 +93,6 @@ footer {
 }
 
 .contact-info a {
-  background: white;
   padding: 10px;
   display: inline-block;;
 }
