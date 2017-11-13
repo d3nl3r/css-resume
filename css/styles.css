@@ -8,6 +8,13 @@
 
 /*  Global styles
 ------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -43,6 +50,20 @@ a:hover {
   overflow: auto;
 }
 
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+  border: 1px solid black;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+  border: 1px solid black;
+}
 
 
 /*  Header and Footer
