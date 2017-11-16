@@ -50,7 +50,7 @@ a:hover {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: hidden;
 }
 
@@ -79,6 +79,10 @@ header, footer {
 }
 
 /* header  */
+
+header {
+  padding-top: 50px;
+}
 
 .profile-img {
 /*  width: 300px; */
@@ -125,6 +129,10 @@ h3 ~ p {
 ------------------------------*/
 nav {
   text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
