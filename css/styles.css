@@ -35,6 +35,10 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  margin: 0;
+}
+
 a{
   color: #EF233C;
 }
@@ -53,7 +57,6 @@ a:hover {
 .col-narrow {
   width: 35%;
   float: left;
-  min-height: 175px;
   padding-right: 3%;
   /* border: 1px solid black; */
 }
@@ -61,7 +64,10 @@ a:hover {
 .col-wide {
   width: 62%;
   float: left;
-  min-height: 175px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 
@@ -103,9 +109,40 @@ footer {
   background: #EDF2F4 ;
 }
 
+h3 ~ p {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+/*  Work Experience
+------------------------------*/
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
 
 /*  Education
 ------------------------------*/
 .education {
   background: #8D99AE;
+}
+
+p + h3 {
+  margin-top: 30px;
 }
