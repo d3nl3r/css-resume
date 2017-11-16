@@ -3,6 +3,13 @@
 #8D99AE - light blue
 #EDF2F4 - blue/white
 #EF2333C - red
+
+#202224 - black
+#DBDBD6 - gray
+#F3EDCF - emerald
+#58564A - muddy-green
+#8E8670 - swamp-green
+
 */
 
 
@@ -40,7 +47,7 @@ h3 {
 }
 
 a{
-  color: #EF233C;
+  color: #58564A;
 }
 
 a:hover {
@@ -54,17 +61,7 @@ a:hover {
   overflow: hidden;
 }
 
-.col-narrow {
-  width: 35%;
-  float: left;
-  padding-right: 3%;
-  /* border: 1px solid black; */
-}
 
-.col-wide {
-  width: 62%;
-  float: left;
-}
 
 .uppercase {
   text-transform: uppercase;
@@ -72,7 +69,7 @@ a:hover {
 
 .btn {
   text-decoration: none;
-  background: #EF233C;
+  background: #58564A;
   color: white;
   padding: 10px;
   display: inline-block;
@@ -82,8 +79,8 @@ a:hover {
 /*  Header and Footer
 ------------------------------*/
 header, footer {
-  background: #2B2D42;
-  color: #8D99AE;
+  background: #DBDBD6;
+  color: #202224 ;
 }
 
 /* header  */
@@ -108,7 +105,7 @@ header {
 
 
 header h1, header h2 {
-  color: #EDF2F4;
+  color: #202224;
   margin: 0;
 }
 
@@ -144,7 +141,7 @@ h3 ~ p {
 ------------------------------*/
 nav {
   text-align: center;
-  background: white;
+  background: #202224;
   position: fixed;
   top: 0;
   width: 100%;
@@ -156,6 +153,11 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  color: #F3EDCF;
+}
+
+nav a:hover{
+  color:white;
 }
 
 
@@ -170,4 +172,29 @@ nav a {
 
 p + h3 {
   margin-top: 30px;
+}
+
+/*  Media Queries
+------------------------------*/
+@media(min-width: 900px){
+  .col-narrow {
+    width: 35%;
+    float: left;
+    padding-right: 3%;
+    /* border: 1px solid black; */
+  }
+
+  .col-wide {
+    width: 62%;
+    float: left;
+  }
+}
+
+@media(max-width: 899px){
+  header{
+    text-align: center;
+  }
+  .profile-img{
+    width: 200px;
+  }
 }
